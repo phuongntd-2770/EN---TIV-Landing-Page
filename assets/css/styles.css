@@ -224,7 +224,8 @@ input, textarea, select, button {
 .statistics-item {
     display: flex;
     justify-content: space-between;
-    align-items:center
+    align-items:center;
+    flex: 30%;
 }
 .number {
     font-size: 60px;
