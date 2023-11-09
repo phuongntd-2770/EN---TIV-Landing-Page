@@ -115,6 +115,10 @@ input, textarea, select, button {
     position: relative;
     cursor: pointer;
 }
+.multi-languages .current-language{
+    width: 30px;
+    height: auto;
+}
 .multi-languages_list {
     position: absolute;
     right: 0;
@@ -139,7 +143,7 @@ input, textarea, select, button {
     align-items: center;
     gap: 12px;   
 }
-.multi-languages_list li.active a{
+.multi-languages_list li.active span{
     color: #ED772C;
 }
 .multi-languages_list li:hover {
